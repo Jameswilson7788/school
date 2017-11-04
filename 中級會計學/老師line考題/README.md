@@ -1,8 +1,8 @@
-[Imgur](https://i.imgur.com/yix3dGV.jpg)
+<a href="https://i.imgur.com/yix3dGV"><img src="https://i.imgur.com/yix3dGV.jpg" title="source: imgur.com" /></a>
 
 華邦電分錄：
 面額為10元，華新當場全數認列並付清股本款項。
-11/2
+### 11/2
 >現金（銀行存款）　1,595,459,624
 
 >　　資本公積 - 普通股溢價　　870,250,704
