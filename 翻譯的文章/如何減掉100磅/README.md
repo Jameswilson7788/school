@@ -36,4 +36,11 @@ SCD適用於任何的男女性， Maria Rider(圖中人物)她是一位超過40�
 自上次我們聊天過後，她已經從224磅減到122磅了，足足減去了125磅，她的老公也跟著減去56磅
 
 
-<a href="//imgur.com/QOj2X">ss</a>
+<a href="https://imgur.com/pnUOgMI"><img src="https://i.imgur.com/pnUOgMI.jpg" title="source: imgur.com" /></a>
+
+當然，SCD也同樣適用於一般的體型，並吃出更健美的身材。
+
+<a href="https://imgur.com/aaH2YEF"><img src="https://i.imgur.com/aaH2YEF.jpg" title="source: imgur.com" /></a>
+
+<a href="https://imgur.com/p9r2B6x"><img src="https://i.imgur.com/p9r2B6x.jpg" title="source: imgur.com" /></a>
+
