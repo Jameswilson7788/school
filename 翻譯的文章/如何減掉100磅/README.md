@@ -44,3 +44,19 @@ SCD適用於任何的男女性， Maria Rider(圖中人物)她是一位超過40�
 
 <a href="https://imgur.com/p9r2B6x"><img src="https://i.imgur.com/p9r2B6x.jpg" title="source: imgur.com" /></a>
 
+----
+
+下一個案例，我們遇見了，Ricardo A，確切地來說，他當時寄了一封電子郵件給我，內容如下：
+
+```
+我完全無法用言語來形容你們給我帶來的幫助，SCD真的是......慢慢帶來效果。
+自從我讀完你書之後，我就下定決心不回頭，沒想到帶給我的改變讓我難以置信
+，不只是減去了體重，也對我的人生觀念產生變化，我已經照著你信中的建議....
+```
+
+接著，他寄了以下的照片來證明遵循SCD之後發生的變化...
+
+<a href="https://imgur.com/opcQgFh"><img src="https://i.imgur.com/opcQgFh.jpg" title="source: imgur.com" /></a>
+
+### 一段介紹
+
