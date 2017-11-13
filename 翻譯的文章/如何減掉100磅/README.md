@@ -76,4 +76,22 @@ SCD適用於任何的男女性， Maria Rider(圖中人物)她是一位超過40�
 
 他不只是提供你一種計畫，甚至回答你任何心中的疑問，Tim提供我所需要的事物。
 
-生活
+###生存與生活
+
+#### 這是一種新的生活風格，而不是減肥。
+
+這是我用SCD減重後所得到的領悟，我單純的把Tim的口頭禪放在我心裡，我不只是調整了我的所有吃的食物，我也把大家認為不健康的食物給剃除掉了，我之前的"正餐"都是
+
+吃一些連我自己都不敢相信的垃圾食物，沒有一天是不吃零食的，每天我的嘴裡都是塞滿超多的冰淇淋餅乾，現在回想起來，難怪我會輕鬆地達到410磅。
+
+我整個人生都是超重的。
+
+當我開始管理我的減重計畫不久，我的體重又回來了，我已經開啟減重的大門有一段時間了，但我發現減重實在是太難了，很快的我就欺騙自己或者開始吃垃圾食物，
+
+接著就放棄，這就是為什麼我知道
+
+Whenever I managed to lose weight, I’d gain it all back. I had been open to the idea of dieting for some time but found diets too hard to follow. I would start one, and as soon as I cheated or ate incompliant foods, I would give up. This is why I knew the SCD was something I had to try. How could I pass up losing weight while not only being allowed to “cheat”, but being required to do so for an entire day out of the week?
+
+Months after starting the SCD, I ran into an article in the UK’s Daily Mail explaining the science behind postponing eating, which further reinforced the science behind cheat day on the SCD. This, coupled with the outstanding community aspect (via blogs and personal websites), has led to my success and high compliancy rate (over 90% complaint in the past 9 months). I don’t snack, and I only drink unsweetened iced tea and black coffee. I also drink at least a gallon of water a day.
+
+MEAL PLAN ON THE SCD — WHAT HAS WORKED FOR ME
