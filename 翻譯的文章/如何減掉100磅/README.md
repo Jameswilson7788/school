@@ -88,9 +88,9 @@ SCD適用於任何的男女性， Maria Rider(圖中人物)她是一位超過40�
 
 當我開始管理我的減重計畫不久，我的體重又回來了，我已經開啟減重的大門有一段時間了，但我發現減重實在是太難了，很快的我就欺騙自己或者開始吃垃圾食物，
 
-接著就放棄，這就是為什麼我知道
+接著就放棄，這就是為什麼我知道SCD是值得嘗試的，因為我怎麼能錯過一個禮拜能夠讓我作弊，僅有一次的大吃大喝？
 
-Whenever I managed to lose weight, I’d gain it all back. I had been open to the idea of dieting for some time but found diets too hard to follow. I would start one, and as soon as I cheated or ate incompliant foods, I would give up. This is why I knew the SCD was something I had to try. How could I pass up losing weight while not only being allowed to “cheat”, but being required to do so for an entire day out of the week?
+在我做完SCD的幾個月，我跑去
 
 Months after starting the SCD, I ran into an article in the UK’s Daily Mail explaining the science behind postponing eating, which further reinforced the science behind cheat day on the SCD. This, coupled with the outstanding community aspect (via blogs and personal websites), has led to my success and high compliancy rate (over 90% complaint in the past 9 months). I don’t snack, and I only drink unsweetened iced tea and black coffee. I also drink at least a gallon of water a day.
 
