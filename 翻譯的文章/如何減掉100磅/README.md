@@ -125,6 +125,6 @@ SCD適用於任何的男女性， Maria Rider(圖中人物)她是一位超過40�
 
 我的名字是Ricardo，我31歲，我在SCD計畫減掉了150磅。謝謝你，Tim。
 
-# 以下內容翻譯Tim Blog的文章，如何減去100磅？有任何翻譯錯誤歡迎issue。
+#### 以下內容翻譯Tim Blog的文章，如何減去100磅。有任何翻譯錯誤歡迎issue。
 
-https://tim.blog/2012/07/12/how-to-lose-100-pounds/
+origin: https://tim.blog/2012/07/12/how-to-lose-100-pounds/
