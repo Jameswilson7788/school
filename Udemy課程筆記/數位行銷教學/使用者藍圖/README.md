@@ -95,6 +95,6 @@
 
 藉由觀看這些評論來了解市場上缺乏了什麼要素。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/v47WEyeSMSA" frameborder="0" allowfullscreen></iframe>
+[![Alt text for your video](https://img.youtube.com/vi/T-D1KVIuvjA/0.jpg)](https://www.youtube.com/embed/v47WEyeSMSA)
 
 ##### 行動：開始回答這些問題，並建立一個獨一無二的銷售主張吧！
