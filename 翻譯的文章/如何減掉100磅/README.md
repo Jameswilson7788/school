@@ -76,7 +76,7 @@ SCD適用於任何的男女性， Maria Rider(圖中人物)她是一位超過40�
 
 他不只是提供你一種計畫，甚至回答你任何心中的疑問，Tim提供我所需要的事物。
 
-###生存與生活
+### 生存與生活
 
 #### 這是一種新的生活風格，而不是減肥。
 
@@ -90,8 +90,6 @@ SCD適用於任何的男女性， Maria Rider(圖中人物)她是一位超過40�
 
 接著就放棄，這就是為什麼我知道SCD是值得嘗試的，因為我怎麼能錯過一個禮拜能夠讓我作弊，僅有一次的大吃大喝？
 
-在我做完SCD的幾個月，我跑去
+在我做完SCD的幾個月，我研讀了一篇英國每日郵報的<a href="http://www.dailymail.co.uk/femail/article-2097267/Tempted-doughnut-How-telling-Ill-eat-later-prevent-overindulging.html">文章</a>，他利用科學證實解釋這種慢食，作弊日進食可以更進一步的強化且SCD的效果。這個東西在許多的傑出社群中備受推崇(包含部落格和一些個人網站上)，指引我成功減重並增加我的怨氣(這九個月中包含我人生中90%的抱怨)，我不再吃點心，而且我只喝沒有含糖的冰水還有黑咖啡，而且我每天喝了接近一加侖的水(4000C.C.)。
 
-Months after starting the SCD, I ran into an article in the UK’s Daily Mail explaining the science behind postponing eating, which further reinforced the science behind cheat day on the SCD. This, coupled with the outstanding community aspect (via blogs and personal websites), has led to my success and high compliancy rate (over 90% complaint in the past 9 months). I don’t snack, and I only drink unsweetened iced tea and black coffee. I also drink at least a gallon of water a day.
-
-MEAL PLAN ON THE SCD — WHAT HAS WORKED FOR ME
+接下來計畫我的SCD餐點 - 對我來說很有效：
