@@ -1,1 +1,3 @@
-這是什麼？太神啦～~~~~
+# 三十天稅法練習：
+
+### https://www.youtube.com/watch?v=IxfhxzWGLho
