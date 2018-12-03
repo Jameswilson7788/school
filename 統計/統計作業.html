@@ -1,0 +1,606 @@
+<html>
+
+<head>
+    <title>統計作業</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <!-- <script
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script> -->
+    <!-- <script src="https://cdn.datatables.net/1.10.18/js/dataTables.bootstrap4.min.js"></script> -->
+    <style>
+        body {
+            font-family: "微軟正黑體";
+        }
+        .red {
+            color:red;
+        }
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;">統計作業</h1>
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                        aria-expanded="true" aria-controls="collapseOne">
+                        會長為<span class="red">男</span>性，就讀<span class="red">銀保</span>科，年齡<span class="red">19</span>歲，個人每月零用金額為3500元。<span
+                            class="red">不</span>訂購飲料
+                    </button>
+                </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    <h2 style="text-align: center;">會長的資料</h2>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>編號</th>
+                                <th>是否需要代購</th>
+                                <th>欲購買的飲料店家</th>
+                                <th>飲料品項</th>
+                                <th>糖需求</th>
+                                <th>冰塊需求</th>
+                                <th>性別</th>
+                                <th>年齡</th>
+                                <th>就讀科系</th>
+                                <th>個人每月零用金額</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>41</td>
+                                <td>否</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>男</td>
+                                <td>19</td>
+                                <td>銀保科</td>
+                                <td>3500</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                        aria-expanded="false" aria-controls="collapseTwo">
+                        整理受訪者資料，共收集 41位資料，發現有<span class="red">18</span>位女性，有 <span class="red">22</span> 位男性；需要代購飲料有<span
+                            class="red">39</span>位，欲購買50嵐飲料有<span class="red">17</span>位，訂購50嵐飲料者中個人每月平均零用金額為<span
+                            class="red">3382</span>元；欲購買橘子工坊飲料有
+                        <span class="red">8</span>位，女性中欲購買清心福全飲料有<span class="red">6</span>位。
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <h2 style="text-align: center;">是否需要代購</h2>
+                <table id="table2" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>性別</th>
+                            <th>否</th>
+                            <th>是</th>
+                            <th>總計</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>女</td>
+                            <td>0</td>
+                            <td>22</td>
+                            <td>22</td>
+                        </tr>
+                        <tr>
+                            <td>男</td>
+                            <td>2</td>
+                            <td>17</td>
+                            <td>19</td>
+                        </tr>
+                        <tr>
+                            <td>總計</td>
+                            <td>1</td>
+                            <td>39</td>
+                            <td>40</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h2 style="text-align: center;">代購店家人數統計</h2>
+                <table id="table2" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>欲購買店家</th>
+                            <th>女</th>
+                            <th>男</th>
+                            <th>總計</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>50嵐</td>
+                            <td>8</td>
+                            <td>9</td>
+                            <td>17</td>
+                        </tr>
+                        <tr>
+                            <td>其他</td>
+                            <td>2</td>
+                            <td>2</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>清心福全</td>
+                            <td>6</td>
+                            <td>4</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>橘子工坊</td>
+                            <td>6</td>
+                            <td>2</td>
+                            <td>8</td>
+                        </tr>
+                        <tr>
+                            <td>空缺</td>
+                            <td>0</td>
+                            <td>2</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>總計</td>
+                            <td>22</td>
+                            <td>19</td>
+                            <td>41</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h2 style="text-align: center;">訂購50嵐平均月零用金額</h2>
+                <table id="table2" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>欲購買店家</th>
+                            <th>平均零用金額</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>50嵐</td>
+                            <td>3382</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                        aria-expanded="false" aria-controls="collapseThree">
+                        訂購清心福全烏龍茶2 位，寫出編號為: 10、12 ；糖需求為 8分冰塊、5分冰塊。
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    <h2>欲購買清心福全及烏龍茶</h2>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>編號</th>
+                                <th>是否需要代購</th>
+                                <th>欲購買的飲料店家</th>
+                                <th>飲料品項</th>
+                                <th>糖需求</th>
+                                <th>冰塊需求</th>
+                                <th>性別</th>
+                                <th>年齡</th>
+                                <th>就讀科系</th>
+                                <th>個人每月零用金額</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>10</td>
+                                <td>是</td>
+                                <td>清心福全</td>
+                                <td>烏龍茶</td>
+                                <td>8分糖</td>
+                                <td>8分冰塊 </td>
+                                <td>男</td>
+                                <td>15</td>
+                                <td>銀保科</td>
+                                <td>4500</td>
+                            </tr>
+                            <tr>
+                                <td>28</td>
+                                <td>是</td>
+                                <td>清心福全</td>
+                                <td>烏龍茶</td>
+                                <td>8分糖</td>
+                                <td>5分冰塊 </td>
+                                <td>女</td>
+                                <td>18</td>
+                                <td>會資科</td>
+                                <td>3500</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" id="headingFour">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour"
+                        aria-expanded="false" aria-controls="collapseFour">
+                        冰塊需求為”正常冰塊”有 <span class="red">4</span> 位，其中欲購買50嵐飲料有 <span class="red">3</span> 位。
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                <div class="card-body">
+                    <h2>冰塊需求</h2>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>冰塊需求</th>
+                                <th>50嵐</th>
+                                <th>其他</th>
+                                <th>總計</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>正常</th>
+                                <th>3</th>
+                                <th>1</th>
+                                <th>4</th>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" id="headingFive">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive"
+                        aria-expanded="false" aria-controls="collapseFive">
+                        女性中冰塊需求為”3分冰塊”有 <span class="red">9</span> 位，女性中冰塊需求為”無冰塊”有 <span class="red">0</span>
+                        位，女性中糖需求為”5分糖”有 <span class="red">2</span> 位。
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="collapseFive" data-parent="#accordionExample">
+                <div class="card-body">
+                    <h2>冰塊需求</h2>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>性別</th>
+                                <th>3分冰塊</th>
+                                <th>5分冰塊</th>
+                                <th>8分冰塊</th>
+                                <th>正常</th>
+                                <th>空缺</th>
+                                <th>統計</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>女</th>
+                                <th>9</th>
+                                <th>10</th>
+                                <th>1</th>
+                                <th>2</th>
+                                <th>0</th>
+                                <th>22</th>
+
+                            </tr>
+                            <tr>
+                                <th>男</th>
+                                <th>7</th>
+                                <th>3</th>
+                                <th>5</th>
+                                <th>2</th>
+                                <th>2</th>
+                                <th>19</th>
+                            </tr>
+                            <tr>
+                                <th>統計</th>
+                                <th>16</th>
+                                <th>13</th>
+                                <th>6</th>
+                                <th>4</th>
+                                <th>2</th>
+                                <th>41</th>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <h2>糖需求</h2>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>性別</th>
+                                <th>3分糖</th>
+                                <th>5分糖</th>
+                                <th>8分糖</th>
+                                <th>全糖</th>
+                                <th>無糖</th>
+                                <th>空缺</th>
+                                <th>統計</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>女</th>
+                                <th>11</th>
+                                <th>2</th>
+                                <th>4</th>
+                                <th>3</th>
+                                <th>2</th>
+                                <th>0</th>
+                                <th>22</th>
+                            </tr>
+                            <tr>
+                                <th>男</th>
+                                <th>8</th>
+                                <th>1</th>
+                                <th>4</th>
+                                <th>3</th>
+                                <th>1</th>
+                                <th>2</th>
+                                <th>19</th>
+                            </tr>
+                            <tr>
+                                <th>統計</th>
+                                <th>19</th>
+                                <th>3</th>
+                                <th>8</th>
+                                <th>6</th>
+                                <th>3</th>
+                                <th>2</th>
+                                <th>41</th>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header" id="headingSix">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix"
+                        aria-expanded="false" aria-controls="collapseSix">
+                        男性中欲購買橘子工坊飲料有 2 位，寫出編號為: <span class="red">13、40</span> ；訂購飲料品項為 : <span class="red">奶綠</span>
+                        、 <span class="red">紅茶</span> ；糖需求為 <span class="red">全糖</span> 。
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseSix" class="collapse" aria-labelledby="collapseSix" data-parent="#accordionExample">
+                <div class="card-body">
+                    <h2>男性且購買橘子工坊</h2>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>編號</th>
+                                <th>是否需要代購</th>
+                                <th>欲購買的飲料店家</th>
+                                <th>飲料品項</th>
+                                <th>糖需求</th>
+                                <th>冰塊需求</th>
+                                <th>性別</th>
+                                <th>年齡</th>
+                                <th>就讀科系</th>
+                                <th>個人每月零用金額</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>13</th>
+                                <th>是</th>
+                                <th>橘子工坊</th>
+                                <th>奶綠</th>
+                                <th>全糖</th>
+                                <th>5分冰塊</th>
+                                <th>男</th>
+                                <th>18</th>
+                                <th>銀保科</th>
+                                <th>8500</th>
+                            </tr>
+                            <tr>
+                                <th>40</th>
+                                <th>是</th>
+                                <th>橘子工坊</th>
+                                <th>紅茶</th>
+                                <th>全糖</th>
+                                <th>8分冰塊</th>
+                                <th>男</th>
+                                <th>16</th>
+                                <th>其他</th>
+                                <th>3500</th>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-header" id="collapsedSeven">
+            <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven"
+                    aria-expanded="false" aria-controls="collapseSeven">
+                    女性中欲購買橘子工坊飲料有 位，寫出編號為: ( )、( ) ；訂購飲料品項為 : ( )、( ) ；糖需求為 。
+                </button>
+            </h5>
+        </div>
+        <div id="collapseSeven" class="collapse" aria-labelledby="collapseSeven" data-parent="#accordionExample">
+            <div class="card-body">
+                <h2>女性且購買橘子工坊</h2>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>編號</th>
+                            <th>是否需要代購</th>
+                            <th>欲購買的飲料店家</th>
+                            <th>飲料品項</th>
+                            <th>糖需求</th>
+                            <th>冰塊需求</th>
+                            <th>性別</th>
+                            <th>年齡</th>
+                            <th>就讀科系</th>
+                            <th>個人每月零用金額</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>13</th>
+                            <th>是</th>
+                            <th>橘子工坊</th>
+                            <th>奶綠</th>
+                            <th>全糖</th>
+                            <th>5分冰塊</th>
+                            <th>男</th>
+                            <th>18</th>
+                            <th>銀保科</th>
+                            <th>8500</th>
+                        </tr>
+                        <tr>
+                            <th>40</th>
+                            <th>是</th>
+                            <th>橘子工坊</th>
+                            <th>紅茶</th>
+                            <th>全糖</th>
+                            <th>8分冰塊</th>
+                            <th>男</th>
+                            <th>16</th>
+                            <th>其他</th>
+                            <th>3500</th>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    </button>
+    </h5>
+    </div>
+    <div id="collapseSix" class="collapse" aria-labelledby="collapseSix" data-parent="#accordionExample">
+        <div class="card-body">
+            <h2>男性且購買橘子工坊</h2>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>編號</th>
+                        <th>是否需要代購</th>
+                        <th>欲購買的飲料店家</th>
+                        <th>飲料品項</th>
+                        <th>糖需求</th>
+                        <th>冰塊需求</th>
+                        <th>性別</th>
+                        <th>年齡</th>
+                        <th>就讀科系</th>
+                        <th>個人每月零用金額</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>13</th>
+                        <th>是</th>
+                        <th>橘子工坊</th>
+                        <th>奶綠</th>
+                        <th>全糖</th>
+                        <th>5分冰塊</th>
+                        <th>男</th>
+                        <th>18</th>
+                        <th>銀保科</th>
+                        <th>8500</th>
+                    </tr>
+                    <tr>
+                        <th>40</th>
+                        <th>是</th>
+                        <th>橘子工坊</th>
+                        <th>紅茶</th>
+                        <th>全糖</th>
+                        <th>8分冰塊</th>
+                        <th>男</th>
+                        <th>16</th>
+                        <th>其他</th>
+                        <th>3500</th>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </div>
+
+
+    </div>
+    <!-- <script>
+        var dataHeader = [
+            "編號",
+            "是否需要代購",
+            "欲購買的飲料店家",
+            "飲料品項",
+            "糖需求",
+            "冰塊需求",
+            "性別",
+            "年齡",
+            "就讀科系",
+            "個人每月零用金額",
+        ];
+
+        var data_q1 = [
+            dataHeader,
+            ["41",
+                "否",
+                "",
+                "",
+                "",
+                "",
+                "男",
+                "19",
+                "銀保科",
+                "3500"]
+        ];
+
+        $(document).ready(function () {
+            $('#table2').DataTable({
+                data: [["1"], ["1"]]
+            })
+        });
+
+    </script> -->
+
+</body>
+
+</html>
