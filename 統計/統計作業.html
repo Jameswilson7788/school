@@ -14,6 +14,8 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.css' rel='stylesheet' />
+        <script src='https://api.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.js'></script>
     <!-- <script src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script> -->
     <!-- <script src="https://cdn.datatables.net/1.10.18/js/dataTables.bootstrap4.min.js"></script> -->
     <style>
@@ -30,7 +32,6 @@
 </head>
 
 <body>
-
     <h1 style="text-align: center;">統計作業</h1>
     <div class=" accordion" id="accordionExample">
         <div class="card">
@@ -458,8 +459,8 @@
                 <h5 class="mb-0">
                     <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven"
                         aria-expanded="false" aria-controls="collapseSeven">
-                        女性中欲購買橘子工坊紅茶有<span class="red">2</span>位，寫出編號為: <span class="red">2</span>、<span class="red">17</span>
-                        ；訂購飲料品項為 : <span class="red">紅茶</span> ；糖需求為 <span class="red">3分糖</span>。
+                        女性中欲購買橘子工坊有<span class="red">6</span>位，寫出編號為: <span class="red">2、9、11、17、19、26</span>
+                        ；訂購飲料品項為 : <span class="red">紅茶、珍奶、奶綠</span> ；糖需求為 <span class="red">無糖、3分糖、5分糖、全糖</span>。
                     </button>
                 </h5>
             </div>
@@ -516,6 +517,33 @@
 
                             </tr>
                             <tr>
+
+                            </tr>
+                            <tr>
+                                <th>9</th>
+                                <th>是</th>
+                                <th>橘子工坊</th>
+                                <th>珍奶</th>
+                                <th>5分糖</th>
+                                <th>3分冰</th>
+                                <th>女</th>
+                                <th>16</th>
+                                <th>企管科</th>
+                                <th>3500</th>
+                            </tr>
+                            <tr>
+                                <th>11</th>
+                                <th>是</th>
+                                <th>橘子工坊</th>
+                                <th>奶綠</th>
+                                <th>全糖</th>
+                                <th>5分冰</th>
+                                <th>女</th>
+                                <th>18</th>
+                                <th>銀保科</th>
+                                <th>3500</th>
+                            </tr>
+                            <tr>
                                 <th>17</th>
                                 <th>是</th>
                                 <th>橘子工坊</th>
@@ -525,6 +553,30 @@
                                 <th>女</th>
                                 <th>18</th>
                                 <th>會資科</th>
+                                <th>2500</th>
+                            </tr>
+                            <tr>
+                                <th>19</th>
+                                <th>是</th>
+                                <th>橘子工坊</th>
+                                <th>珍奶</th>
+                                <th>無糖</th>
+                                <th>5分冰塊</th>
+                                <th>女</th>
+                                <th>18</th>
+                                <th>會資科</th>
+                                <th>10500</th>
+                            </tr>
+                            <tr>
+                                <th>26</th>
+                                <th>是</th>
+                                <th>橘子工坊</th>
+                                <th>珍奶</th>
+                                <th>全糖</th>
+                                <th>3分冰塊</th>
+                                <th>女</th>
+                                <th>18</th>
+                                <th>銀保科</th>
                                 <th>2500</th>
                             </tr>
                         </tbody>
@@ -611,76 +663,133 @@
             </div>
         </div>
 
-<div class="card">
-    <div class="card-header" id="collapsedNine">
-        <h5 class="mb-0">
-            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine"
-                aria-expanded="false" aria-controls="collapseNine">
-            訂購50嵐者中:
-            冰塊需求分別為:”無冰塊”有<span class="red">0</span>位，”3分冰塊”有<span class="red">16</span>位，”5分冰塊”有<span class="red">13</span>位，為”正常冰塊”有<span class="red">4</span>位。
-            訂購飲料品項為:紅茶有<span class="red">11</span>位，珍奶有<span class="red">9</span>位，烏龍茶有<span class="red">6</span>位，奶綠有<span class="red">7</span>位。 
-            </button>
-        </h5>
-    </div>
-    <div id="collapseNine" class="collapse" aria-labelledby="collapseNine" data-parent="#accordionExample">
-        <div class="card-body">
-            <h2>50嵐茶類與冰量統計</h2>
-            <table class="table table-striped">
-                <thead>
-                    <tr>
-                        <th>飲料品項</th>
-                        <th>3分冰</th>
-                        <th>5分冰</th>
-                        <th>正常冰</th>
-                        <th>總計</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th>奶綠</th>
-                        <th>3</th>
-                        <th>3</th>
-                        <th>1</th>
-                        <th>7</th>
-                    </tr>
-                    <tr>
-                        <th>珍奶</th>
-                        <th>4</th>
-                        <th>3</th>
-                        <th>2</th>
-                        <th>9</th>
-                    </tr>
-                    <tr>
-                        <th>紅茶</th>
-                        <th>6</th>
-                        <th>4</th>
-                        <th>1</th>
-                        <th>11</th>
-                    </tr>
-                    <tr>
-                        <th>烏龍茶</th>
-                        <th>3</th>
-                        <th>3</th>
-                        <th>0</th>
-                        <th>6</th>
-                    </tr>
-                    <tr>
-                        <th>總計</th>
-                        <th>16</th>
-                        <th>13</th>
-                        <th>4</th>
-                        <th>33</th>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="card">
+            <div class="card-header" id="collapsedNine">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine"
+                        aria-expanded="false" aria-controls="collapseNine">
+                        訂購50嵐者中:
+                        冰塊需求分別為:”無冰塊”有<span class="red">0</span>位，”3分冰塊”有<span class="red">16</span>位，”5分冰塊”有<span
+                            class="red">13</span>位，為”正常冰塊”有<span class="red">4</span>位。
+                        訂購飲料品項為:紅茶有<span class="red">11</span>位，珍奶有<span class="red">9</span>位，烏龍茶有<span class="red">6</span>位，奶綠有<span
+                            class="red">7</span>位。
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseNine" class="collapse" aria-labelledby="collapseNine" data-parent="#accordionExample">
+                <div class="card-body">
+                    <h2>50嵐茶類與冰量統計</h2>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>飲料品項</th>
+                                <th>3分冰</th>
+                                <th>5分冰</th>
+                                <th>正常冰</th>
+                                <th>總計</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>奶綠</th>
+                                <th>3</th>
+                                <th>3</th>
+                                <th>1</th>
+                                <th>7</th>
+                            </tr>
+                            <tr>
+                                <th>珍奶</th>
+                                <th>4</th>
+                                <th>3</th>
+                                <th>2</th>
+                                <th>9</th>
+                            </tr>
+                            <tr>
+                                <th>紅茶</th>
+                                <th>6</th>
+                                <th>4</th>
+                                <th>1</th>
+                                <th>11</th>
+                            </tr>
+                            <tr>
+                                <th>烏龍茶</th>
+                                <th>3</th>
+                                <th>3</th>
+                                <th>0</th>
+                                <th>6</th>
+                            </tr>
+                            <tr>
+                                <th>總計</th>
+                                <th>16</th>
+                                <th>13</th>
+                                <th>4</th>
+                                <th>33</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
+
+        <div class="card">
+            <div class="card-header" id="collapsedTen">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen"
+                        aria-expanded="false" aria-controls="collapseTen">
+                        學號單數：假設我方為 <sapn class="red">會資系</sapn>，請統計我們要如何訂購飲料。
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseTen" class="collapse" aria-labelledby="collapseTen" data-parent="#accordionExample">
+                <div class="card-body">
+                    <p>各位同學大家好，我是會資科的班代，現在我們要統計一下班上有訂購飲料的同學，根據我們統計的資料結果，利用<span class="red">樞紐分析表</span>整理之後，可以利用以下的敘述來去點飲料。</p>
+                    <p>
+                        50嵐：<br>
+                        奶綠<span class="red">2</span>杯，皆<span class="red">三分糖、三分冰塊</span><br>
+                        珍奶 <span class="red">2</span> 杯，一杯<span class="red">三分糖、正常冰</span>，一杯<span class="red">全糖、三分冰塊</span><br>
+                        紅茶 <span class="red">4</span> 杯，一杯<span class="red">八分糖、三分冰塊</span>，三杯<span class="red">三分糖、五分冰塊</span><br>
+                        烏龍茶<span class="red">1</span>杯，<span class="red">三分糖、五分冰</span><br>
+                    </p>
+
+
+                    <p>
+                        清心福全：<br>
+                        紅茶<span class="red">2</span>杯，一杯<span class="red">三分糖、八分冰塊</span>，一杯<span class="red">八分糖、八分冰塊</span><br>
+                        奶綠<span class="red">1</span>杯，<span class="red">三分糖、三分冰塊</span><br>
+                        珍奶<span class="red">1</span>杯，<span class="red">無糖、五分冰</span><br>
+                        烏龍茶<span class="red">1</span>杯，<span class="red">八分糖、五分冰</span><br>
+                    </p>
+                    <p>
+                        橘子工坊：<br>
+                        珍奶<span class="red">1</span>杯，<span class="red">無糖、五分冰</span><br>
+                        紅茶<span class="red">1</span>杯，<span class="red">三分糖、三分冰</span><br>
+                    </p>
+
+                    
+                    <div>
+                        <div id="googleMap" style="width:100%;height:400px;"></div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
     </div>
-</div>
 
+    <script>
+        function initMap() {
+            var mapProp = {
+                center: new google.maps.LatLng(24.1500235, 120.6817751),
+                zoom: 11,
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+        }
+    </script>
 
-
-    </div>
-
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBI8zow2T4E665SRBt0d2tp8iIHdpoZ_Ck&callback=initMap"
+        type="text/javascript"></script>
     <!-- <script>
         var dataHeader = [
             "編號",
